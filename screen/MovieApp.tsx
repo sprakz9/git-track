@@ -79,7 +79,7 @@ const MovieApp = () => {
                               color : "white" , 
                               fontSize : 16,
                               textAlign : "center"
-                            }}>TEST BUTTON</Text>
+                            }}>TEST BUTTON and git hihi</Text>
                         </TouchableOpacity>
                     </View>
                 
