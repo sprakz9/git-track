@@ -60,6 +60,7 @@ const MovieApp = () => {
                           </Pressable>
                               <Text style={styles.title}>{item.Title}</Text>
                               <Text style={styles.year}>{item.Year}</Text>
+                              <Text style = {styles.year}>Language : {item.Language}</Text>
                         </View>
                     )
                   }
@@ -124,7 +125,6 @@ const styles = StyleSheet.create({
     year: {
       fontSize: 14,
       color: 'white',
-      marginBottom: 10,
     },
     scrollView: {
       flexDirection: 'row',
